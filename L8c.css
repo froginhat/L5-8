@@ -1,0 +1,74 @@
+form{
+    display: grid;
+    grid-template-columns:auto;    
+    justify-content: center;
+    margin: 0;
+   padding: 0;
+}
+h1{
+    grid-column: 1/span 1;
+}
+
+.bloc
+{
+    display: grid;
+    grid-template-columns: auto 500px;
+    gap: 50px;
+}
+.pole{
+    width: 500px;
+}
+.b-4 input{
+    position: absolute;
+   width:  100px;
+   height: 70px;
+   margin: 0;
+   padding: 0;
+}
+.b-5 
+{
+    grid-template-columns: 500px;
+    justify-self: right;
+}
+.mintext{
+    font-family: 'PF DinDisplay Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 100%;
+/* identical to box height, or 11px */
+
+letter-spacing: 0.02em;
+
+/* Черный 1 */
+
+color: #A8A9AA;
+}
+.card_tow
+{
+    display: grid;
+    grid-template-rows: repeat(6,auto);
+    justify-items: center;
+    align-items: center;
+    
+}
+.znak
+{
+    color: green;
+}
+.free
+{
+    background-color: yellow;
+    border-radius: 3px;
+}
+.cost
+{
+    display: grid;
+    justify-items: center;
+}
+
+.time
+{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+}
